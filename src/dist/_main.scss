@@ -1,0 +1,17 @@
+.main {
+  margin: 33px 36px 44px 36px;
+  h3 {
+    margin: 0;
+  }
+
+  h3:not(:first-child) {
+    margin-top: 17px;
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0;
+  }
+}

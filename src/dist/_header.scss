@@ -1,0 +1,54 @@
+img {
+  height: 317px;
+  width: 317px;
+  border-radius: 10px 10px 0 0;
+}
+
+.name {
+  text-align: center;
+  color: $white;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h4 {
+    color: $yellow;
+    font-weight: 400;
+    padding: 0 20px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 7px;
+  }
+}
+
+.button {
+  button {
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    height: 34px;
+    width: 115px;
+    cursor: pointer;
+  }
+
+  i {
+    padding-right: 10px;
+  }
+
+  .email {
+    color: $dark-grey;
+    background-color: $off-white;
+    margin: 0 8.5px 0 35px;
+  }
+
+  .linkedin {
+    color: $off-white;
+    background-color: $blue;
+    margin: 0 35px 0 8.5px;
+  }
+}
